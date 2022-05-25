@@ -149,3 +149,40 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
+
+table#tablespec{
+    border: 1px solid #606060;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table#tablespec td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+table#tablespec td.left{
+    color: #FFFFFF;
+    background: #606060 ;
+    vertical-align: top ;
+    text-align: center;
+    font-weight: bold;
+}
+table#tablespec td.right {
+    background-color: #CECECE ;
+}
+
+table#tablespec caption {
+   color: #888888;
+   font-size: 13pt; 
+   font-weight: bolder;
+}
+table#tablespec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+
